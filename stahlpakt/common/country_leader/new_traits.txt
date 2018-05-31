@@ -1,0 +1,31 @@
+leader_traits = {
+	# drift is a percent applied weekly
+	valkist_advocate = {
+		random = no
+		sprite = 13
+		valkism_drift = 0.6
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	demsoc_reformer = {
+		random = no
+		sprite = 13
+		demsoc_drift = 0.6
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	libertarian_demagouge = {
+		random = no
+		sprite = 13
+		classlib_drift = 0.6
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+}
