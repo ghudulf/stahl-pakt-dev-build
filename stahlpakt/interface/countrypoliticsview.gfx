@@ -376,6 +376,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/libertarian_group.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_ideology_revolutionism_group"
+		texturefile = "gfx/interface/ideologies/revolutionism_group.dds"
+	}
+	
 	
 	spriteType = {
 		name = "GFX_ideology_democratic_group"
