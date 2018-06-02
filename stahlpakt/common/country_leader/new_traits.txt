@@ -27,5 +27,14 @@ leader_traits = {
 			factor = 0
 		}
 	}
+	nazbol_revolutionary = {
+		random = no
+		sprite = 13
+		nazcol_drift = 0.6
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
 
 }

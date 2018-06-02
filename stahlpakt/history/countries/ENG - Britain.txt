@@ -219,15 +219,15 @@ set_politics = {
 
 	parties = {
 		demsoc = { 
-			popularity = 70
+			popularity = 100
 		}
 
 		classlib = {
-			popularity = 30
+			popularity = 50
 		}
 		
-		communism = {
-			popularity = 1
+		nazcol = {
+			popularity = 40
 		}
 	}
 	
@@ -295,7 +295,7 @@ create_country_leader = {
 	desc = "POLITICS_PALME_DUTT_DESC"
 	picture = "Portrait_Britain_Palme_Dutt.dds"
 	expire = "1965.1.1"
-	ideology = leninism
+	ideology = national_collectivist_ideology
 	traits = {
 		
 	}

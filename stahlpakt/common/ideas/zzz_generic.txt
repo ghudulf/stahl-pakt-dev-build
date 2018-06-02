@@ -982,6 +982,27 @@ ideas = {
 				factor = 0		
 			}		
 		}
+		
+		generic_nazbol_revolution = {		
+					
+			allowed = {		
+				NOT = {		
+					has_available_idea_with_traits = { idea = nazbol_revolutionary limit = 1 }		
+				}		
+			}		
+					
+			traits = { nazbol_revolutionary }				
+			
+			do_effect = {		
+				NOT = {		
+					has_government = nazcol
+				}		
+			}		
+			
+			ai_will_do = {		
+				factor = 0		
+			}		
+		}
 			
 		generic_democratic_reformer = {
 			

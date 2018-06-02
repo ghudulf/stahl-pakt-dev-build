@@ -345,5 +345,44 @@ ideologies = {
 		ai_fascist = yes	
 		can_be_boosted = yes
 	}
+	
+	
+	nazcol = {
+		
+		types = {
+			
+			national_collectivist_ideology = {
+			}
+			
+			
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_NATIONAL_BOLSHEVIK_1"
+			"FACTION_NAME_NATIONAL_BOLSHEVIK_2"
+			"FACTION_NAME_NATIONAL_BOLSHEVIK_3"
+			"FACTION_NAME_NATIONAL_BOLSHEVIK_4"
+			"FACTION_NAME_NATIONAL_BOLSHEVIK_5"
+			"FACTION_NAME_NATIONAL_BOLSHEVIK_6"
+		}
+		
+		color = { 34 71 102 }
+		
+		war_impact_on_world_tension = 1
+		faction_impact_on_world_tension = 1
+		
+		rules = {
+			can_guarantee_other_ideologies = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+		}
+		
+		modifiers = {
+			join_faction_tension = 0.5
+		}
+		
+	}
 }
 
