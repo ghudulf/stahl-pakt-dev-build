@@ -51,7 +51,7 @@ create_country_leader = {
 	desc = "POLITICS_EDVARD_BENES_DESC"
 	picture = "Edvard_Benes.dds"
 	expire = "1965.1.1"
-	ideology = francophile
+	ideology = novo_revolutionista
 	traits = {
 		#
 	}
