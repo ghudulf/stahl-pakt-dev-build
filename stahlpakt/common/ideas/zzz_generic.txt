@@ -920,15 +920,15 @@ ideas = {
 			}
 		}
 		
-		generic_valkist_advocate = {		
+		generic_nazi_advocate = {		
 					
 			allowed = {		
 				NOT = {		
-					has_available_idea_with_traits = { idea = valkist_advocate limit = 1 }		
+					has_available_idea_with_traits = { idea = ultranationalism_advocate limit = 1 }		
 				}		
 			}		
 					
-			traits = { valkist_advocate }				
+			traits = { ultranationalism_advocate }				
 			
 			do_effect = {		
 				NOT = {		

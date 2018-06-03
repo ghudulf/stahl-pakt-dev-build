@@ -362,8 +362,8 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_ideology_valkism_group"
-		texturefile = "gfx/interface/ideologies/valkist_group.dds"
+		name = "GFX_ideology_ultranationalism_group"
+		texturefile = "gfx/interface/ideologies/ultranationalism.dds"
 	}
 	
 	spriteType = {

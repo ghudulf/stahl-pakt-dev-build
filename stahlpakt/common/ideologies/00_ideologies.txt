@@ -289,7 +289,7 @@ ideologies = {
 	}
 	
 	
-	valkism = {
+	ultranationalism = {
 		types = {
 		volkische = {}
 		}
@@ -301,7 +301,7 @@ ideologies = {
 			"FACTION_NAME_VALKIST_5"
 			"FACTION_NAME_VALKIST_6"
 		}
-		color = { 30 77 43 }
+		color = { 61 43 31 }
 		rules = {
 			can_force_government = no
 			can_puppet = yes

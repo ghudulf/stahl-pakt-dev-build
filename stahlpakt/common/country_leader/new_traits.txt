@@ -1,9 +1,9 @@
 leader_traits = {
 	# drift is a percent applied weekly
-	valkist_advocate = {
+	ultranationalism_advocate = {
 		random = no
 		sprite = 13
-		valkism_drift = 0.6
+		ultranationalism_drift = 0.6
 		
 		ai_will_do = {
 			factor = 0

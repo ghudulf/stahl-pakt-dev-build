@@ -173,7 +173,7 @@ set_politics = {
 			popularity = 20
 		}
 
-		valkism = {
+		ultranationalism = {
 			popularity = 100
 		}
 		
@@ -186,7 +186,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = valkism
+	ruling_party = ultranationalism
 	last_election = "1933.12.20"
 	election_frequency = 48
 	elections_allowed = no
