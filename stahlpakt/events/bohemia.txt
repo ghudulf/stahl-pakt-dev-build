@@ -1,0 +1,17 @@
+add_namespace = bohemia
+
+country_event = {
+	id = bohemia.1
+	title = bohemia.1.t
+	desc = bohemia.1.d
+	picture = GFX_report_event_japanese_transport_soldiers
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = God Save Bohemia
+		ai_chance = { factor = 100 }
+		add_political_power = 100
+
+	}
+}
