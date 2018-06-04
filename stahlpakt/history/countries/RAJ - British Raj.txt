@@ -122,7 +122,7 @@ set_politics = {
 
 	parties = {
 		neutrality = { 
-			popularity = 17
+			popularity = 50
 		}
 
 		fascism = {
@@ -134,7 +134,7 @@ set_politics = {
 		}
 
 		democratic = {
-			popularity = 80
+			popularity = 50
 		}
 	}
 	
@@ -157,11 +157,11 @@ create_country_leader = {
 
 # REVISIT Unclear if appropriate for this ideology
 create_country_leader = {
-	name = "V. D. Savarkar"
+	name = "H.H Mirza I"
 	desc = "POLITICS_VD_SAVARKAR_DESC"
-	picture = "GFX_RAJ_veer_savarkar"
+	picture = "Portrait_Mughal_Mirza.dds"
 	expire = "1965.1.1"
-	ideology = falangism
+	ideology = centrism
 	traits = {
 		
 	}
