@@ -228,11 +228,11 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 10 #shared between all parties, should add to 100
+			popularity = 50 #shared between all parties, should add to 100
 		}
 
 		valkism = {
-			popularity = 40
+			popularity = 1
 		}
 		
 		neutrality = {
@@ -270,7 +270,7 @@ create_country_leader = {
 create_country_leader = {
 	name = " Alexander Kerensky"
 	desc = "POLITICS_KONSTANTIN_RODZAEVSKY_DESC"
-	picture = "alexander_kerensky.dds"
+	picture = "Portraits_Russia_Kerensky.dds"
 	expire = "1953.3.1"
 	ideology = socialism
 	traits = {
