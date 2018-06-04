@@ -484,8 +484,8 @@ KOR = {
 	color_ui = rgb { 255 248 229 }	
 }
 ISR = {
-	color = rgb { 152  130  191 }
-	color_ui = rgb { 152  130  191 }
+	color = rgb { 86  160  211 }
+	color_ui = rgb { 86  160  211 }
 }
 D01 = {
 	color = rgb { 200 100 31 }
