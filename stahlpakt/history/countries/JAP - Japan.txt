@@ -203,6 +203,10 @@ set_politics = {
 	elections_allowed = no
 }
 
+create_faction = Prosperity
+add_to_faction = JAP
+add_to_faction = MAN
+add_to_faction = MEN
 
 1939.1.1 = {
 	set_politics = {
