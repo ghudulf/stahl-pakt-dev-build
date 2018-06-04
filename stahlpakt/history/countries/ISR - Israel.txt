@@ -62,11 +62,11 @@ set_convoys = 5
 set_politics = {
 
 	parties = {
-		democratic = { 
+		fascism = { 
 			popularity = 80
 		}
 
-		fascism = {
+		neutrality = {
 			popularity = 0
 		}
 		
@@ -76,7 +76,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = democratic
+	ruling_party = fascism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
@@ -86,7 +86,7 @@ create_country_leader = {
 	name = "Chaim Weizmann"
 	desc = ""
 	picture = "Portrait_ISR_Chaim_Weizmann.dds"
-	ideology = liberalism
+	ideology = democratic_nationalism
 	traits = {
 		#
 	}
