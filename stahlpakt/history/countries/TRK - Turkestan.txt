@@ -46,7 +46,11 @@ set_politics = {
 		
 		communism = {
 			popularity = 40
-		}		
+		}
+
+		demsoc = {
+			popularity = 20
+		}	
 	}
 	ruling_party = neutrality
 }
