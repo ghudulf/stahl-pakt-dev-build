@@ -1,0 +1,206 @@
+focus_tree = {
+id = 'national'
+country = {
+factor=0
+modifier = {
+add = 10
+tag = FNT
+}
+}
+default = no
+#Custom focuses start here
+#Focus for State Of France 
+		focus = { 
+		id = stateoffrance 
+		icon = GFX_goal_generic_military_sphere 
+		ai_will_do = { factor = 1} 
+ x =0 
+ y =0 
+ mutually_exclusive = { } 
+ prerequisite = { } 
+ available = { has_government = ultranationalism } 
+ cost = 10  
+  available_if_capitulated = yes  
+ completion_reward = { 
+ add_political_power = 100 
+ country_event = { 
+ days = 1  
+ id = national.1 
+ } 
+ } 
+ }#Focus for Civilization of french 
+		focus = { 
+		id = civilizationoffrench 
+		icon = GFX_goal_continuous_def_against_influence 
+		ai_will_do = { factor = 1} 
+ x =5 
+ y =1 
+ mutually_exclusive = { } 
+ prerequisite = { focus = stateoffrance} 
+ available = { tag = FNT } 
+ cost = 10  
+  available_if_capitulated = yes  
+ completion_reward = { 
+ 							random_owned_controlled_state = { 
+ 									limit = { 
+ 										free_building_slots = { 
+ 												building = arms_factory 
+ 												size > 0 
+ 												include_locked = yes 
+ 										} 
+ 									} 
+ 									add_extra_state_shared_building_slots = 5 
+ 									add_building_construction = { 
+ 										type = arms_factory 
+ 										level = 5 
+ 										instant_build = yes 
+ 									} 
+ 									set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER 
+ 							} 
+ 						 
+ } 
+ }#Focus for The time has come 
+		focus = { 
+		id = thetimehascome 
+		icon = GFX_focus_ger_bulwark_against_bolshevism 
+		ai_will_do = { factor = 1} 
+ x =9 
+ y =1 
+ mutually_exclusive = { } 
+ prerequisite = { focus = stateoffrance} 
+ available = { tag = FNT } 
+ cost = 10  
+  available_if_capitulated = yes  
+ completion_reward = { 
+ declare_war_on= {  
+ target = FRA 
+ type = annex_everything  
+ } 
+ } 
+ }#Focus for Motherland dreams 
+		focus = { 
+		id = motherlanddreams 
+		icon = GFX_goal_generic_major_alliance 
+		ai_will_do = { factor = 1} 
+ x =3 
+ y =2 
+ mutually_exclusive = { } 
+ prerequisite = { focus = stateoffrance} 
+ available = { tag = FNT } 
+ cost = 10  
+  available_if_capitulated = yes  
+ completion_reward = { 
+ 							random_owned_controlled_state = { 
+ 									limit = { 
+ 										free_building_slots = { 
+ 												building = arms_factory 
+ 												size > 0 
+ 												include_locked = yes 
+ 										} 
+ 									} 
+ 									add_extra_state_shared_building_slots = 1 
+ 									add_building_construction = { 
+ 										type = arms_factory 
+ 										level = 1 
+ 										instant_build = yes 
+ 									} 
+ 									set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER 
+ 							} 
+ 						 
+ } 
+ }#Focus for Francophile thought 
+		focus = { 
+		id = francophilethought 
+		icon = GFX_focus_generic_socialist_science 
+		ai_will_do = { factor = 1} 
+ x =5 
+ y =2 
+ mutually_exclusive = { } 
+ prerequisite = { focus = civilizationoffrench} 
+ available = { has_government = ultranationalism } 
+ cost = 10  
+  available_if_capitulated = yes  
+ completion_reward = { 
+ add_political_power = 50 
+ } 
+ }#Focus for We did it 
+		focus = { 
+		id = wedidit 
+		icon = GFX_focus_ger_great_red_menace 
+		ai_will_do = { factor = 1} 
+ x =8 
+ y =2 
+ mutually_exclusive = { } 
+ prerequisite = { focus = thetimehascome} 
+ available = { tag = FNT } 
+ cost = 1  
+  available_if_capitulated = yes  
+ completion_reward = { 
+ load_focus_tree = generic_focus 
+ } 
+ }#Focus for The motherland day 
+		focus = { 
+		id = themotherlandday 
+		icon = GFX_focus_generic_self_management 
+		ai_will_do = { factor = 1} 
+ x =7 
+ y =3 
+ mutually_exclusive = { } 
+ prerequisite = { focus = francophilethought} 
+ available = { tag = FNT } 
+ cost = 10  
+  available_if_capitulated = yes  
+ completion_reward = { 
+ 							random_owned_controlled_state = { 
+ 									limit = { 
+ 										free_building_slots = { 
+ 												building = arms_factory 
+ 												size > 0 
+ 												include_locked = yes 
+ 										} 
+ 									} 
+ 									add_extra_state_shared_building_slots = 1 
+ 									add_building_construction = { 
+ 										type = arms_factory 
+ 										level = 1 
+ 										instant_build = yes 
+ 									} 
+ 									set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER 
+ 							} 
+  
+ add_political_power = 10 
+ } 
+ }#Focus for Claim The Destiny 
+		focus = { 
+		id = claimthedestiny 
+		icon = GFX_goal_continuous_suppression 
+		ai_will_do = { factor = 1} 
+ x =0 
+ y =4 
+ mutually_exclusive = { } 
+ prerequisite = { focus = motherlanddreams} 
+ available = { tag = FNT } 
+ cost = 10  
+  available_if_capitulated = yes  
+ completion_reward = { 
+ add_state_core = 735 
+ add_state_core = 32 
+ add_state_core = 20 
+ add_state_core = 22 
+ add_state_core = 31 
+ add_state_core = 19 
+ add_state_core = 23 
+ add_state_core = 33 
+ add_state_core = 26 
+ add_state_core = 27 
+ add_state_core = 17 
+ add_state_core = 18 
+ add_state_core = 29 
+ add_state_core = 16 
+ add_state_core = 24 
+ add_state_core = 30 
+ add_state_core = 15 
+ add_state_core = 14 
+ } 
+ }#End of focuses 
+}

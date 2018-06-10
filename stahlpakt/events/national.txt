@@ -1,0 +1,17 @@
+add_namespace = national
+
+country_event = {
+	id = national.1
+	title = national.1.t
+	desc = national.1.d
+	picture = GFX_report_event_japanese_transport_soldiers
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = God Save France
+		ai_chance = { factor = 100 }
+		add_political_power = 100
+
+	}
+}
