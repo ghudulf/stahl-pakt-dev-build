@@ -23,6 +23,8 @@
  TRK_fascism_DEF:0 "The Caliphate Of Turkestan"
  TRK_communism:0 "Collective Of Turkestan"
  TRK_communism_DEF:0 "Collective Of Turkestan"
+ FNT_ultranationalism:0 "République Française"
+ FNT_ultranationalism_DEF:0 "République Française"
  GER_democratic:0 "German Republic"
  GER_democratic_DEF:0 "the German Republic"
  GER_neutrality:1 "German Empire"

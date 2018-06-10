@@ -24,6 +24,10 @@ SCI = {
 	color = rgb { 253 238 0 }
 	color_ui = rgb { 253 238 0 }
 }
+FNT = {
+	color = rgb { 0 0 153 }
+	color_ui = rgb { 0 0 153 }
+}
 SOV = {
 	color = rgb { 35 89 5 }
 	color_ui = rgb { 35 89 5 }
